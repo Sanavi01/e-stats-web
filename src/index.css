@@ -40,3 +40,15 @@ body {
   margin: 3%;
 }
 
+.board{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding: 10px;
+
+}
+
+.content-board {
+  width: 70%;
+}
+
