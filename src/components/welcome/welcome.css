@@ -1,0 +1,40 @@
+.welcome {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  
+  .welcome-top,
+  .welcome-buttom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color-contrast);
+    height: 25%;
+  
+  }
+  
+  .welcome-presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50%;
+    background-color: var(--main-color);
+  }
+  
+  .welcome-button{
+    height: 12%;
+    border-radius: 10px;
+    background-color: var(--main-color-contrast);
+    border-color: #016b39;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .welcome-button:active{
+    border: 3px black solid;
+  
+  }

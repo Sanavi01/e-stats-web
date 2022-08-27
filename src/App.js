@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import Welcome from "./components/welcome/Welcome"
+import ContentsPage from "./components/contents/ContentsPage"
 
-function App() {
+
+export default function App() {
+
+  const [showPage, setShowPage] = React.useState(<Welcome handle={goToContents} />)
+
+  function goToContents() {
+    setShowPage(<ContentsPage />)
+
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div className="page">
+      {showPage}
 
-export default App;
+    </div>
+
+  )
+}
