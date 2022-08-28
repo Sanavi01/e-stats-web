@@ -1,4 +1,12 @@
-.lessons h2{
+.lessons h2 {
     text-align: center;
-  }
-  
+}
+
+p {
+    text-align: justify;
+}
+
+li{
+    padding: 5px;
+    text-align: justify;
+}

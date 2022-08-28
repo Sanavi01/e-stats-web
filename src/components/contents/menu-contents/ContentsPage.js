@@ -14,7 +14,6 @@ export default function ContentsPage() {
     return (
 
         <div className="total-height">
-
             <div className="page-top">
                 <h1>E - Stats</h1>
             </div>
@@ -33,6 +32,9 @@ export default function ContentsPage() {
                     }
                 </div>
             </div>
+            <footer>
+                <h3>Creado por Santiago Avila</h3>
+            </footer>
         </div>
 
     )
