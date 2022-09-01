@@ -20,6 +20,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+ul{
+  padding-bottom: 10px;
+}
+
 .total-height {
   height: 100%;
 }
